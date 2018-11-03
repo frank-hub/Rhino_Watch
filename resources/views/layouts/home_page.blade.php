@@ -19,7 +19,9 @@
             <!-- Styles -->
             <link href="{{ asset('css/app.css') }}" rel="stylesheet">
        <style>
-
+body{
+    overflow-x: hidden;
+}
 /* .zoom-effect-container {
     float: left;
     position: relative;
@@ -80,7 +82,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reach Us</a>
+                        <a class="nav-link" href="{{url('reach_us')}}">Reach Us</a>
                     </li>
                     </ul>
                     <ul class="navbar-nav ml-auto h3">

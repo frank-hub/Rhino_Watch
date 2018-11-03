@@ -5,13 +5,7 @@
         <img src="{{asset('images/slide_2.jpeg')}}"  style="height: 250px" width="100%" alt="">
     </div>
     <section class="container">
-            <div class="text-center">
-                <h4 class="" style="letter-spacing: 15px;">
-                    <span><hr style="width: 395px;"></span>
-                    The Team
-                    <span><hr style="width: 395px;"></span>
-                </h4>
-            </div>
+            z
         <div class="row">
             <div class="col-md-3">
                 <div class="thumbnail">
