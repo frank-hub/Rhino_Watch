@@ -9,8 +9,8 @@
                 <span><hr style="width: 395px;"></span>
             </h4>
         </div>
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row" style="margin-bottom: 10px">
+            <div class="col-md-6" >
                <div class="card bg-dark">
                 <div class="card-body">
                     <form action="" method="post">
@@ -31,7 +31,43 @@
                 </div>
                </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="text-center">
+                                <div> <i class="fas fa-globe-africa" style="font-size: 45px"></i></div>
+                                <div>
+                                 This Where We are Located,<br>
+                                 P.O.Box 2222-222222
+                                </div>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">
+                                <div> <i class="fas fa-envelope" style="font-size: 45px"></i></div>
+                                <div>
+                                 This Where We are Located,<br>
+                                 P.O.Box 2222-222222
+                                </div>
+                             </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">
+                                <div> <i class="fas fa-phone" style="font-size: 45px"></i></div>
+                                <div>
+                                 This Where We are Located,<br>
+                                 P.O.Box 2222-222222
+                                </div>
+                             </p>
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Unde dignissimos provident distinctio, tenetur magnam tempore 
+                        eius illum quasi nemo nostrum atque commodi sunt? Libero illum
+                         amet dolor voluptates ducimus et?
+                    </p>
+            </div>
         </div>
     </div>
 @endsection

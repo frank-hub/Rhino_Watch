@@ -67,11 +67,10 @@
                         </div>    
                     </div>
                     <div class="card-body bg-dark text-white">
-                        <h3 class="">The title here</h3>
+                        <h3 class="">Supporting rangers</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Ea aliquid, quas repellat odio
-                             voluptatibus voluptate laboriosam re
+                            We ensure that ranger
+                            teams have the equipment, training and facilities they need to stay safe and protect wildlife.
                         </p>
                     </div>
                 </div>
@@ -80,14 +79,14 @@
                 <div class="card">
                         <div class="zoom-effect-container">
                             <div class="image-card">
-                                <img src="{{asset('images/rhino.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('images/community.jpeg')}}" style="height: 209px;width: 348px;" class="img-fluid" alt="">
                             </div>    
                         </div>                    <div class="card-body bg-dark text-white">
-                        <h3 class="">The title here</h3>
+                        <h3 class="">Involving communities</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Ea aliquid, quas repellat odio
-                                voluptatibus voluptate laboriosam re
+                            We support community-led conservation, so that 
+                            people living near rhinos are inspired 
+                            to protect wildlife.
                         </p>
                     </div>
                 </div>
@@ -100,15 +99,25 @@
                             </div>    
                         </div>               
                         <div class="card-body bg-dark text-white">
-                        <h3 class="">The title here</h3>
+                        <h3 class="">Tackling illegal trade</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Ea aliquid, quas repellat odio
-                                voluptatibus voluptate laboriosam re
+                            We are committed to addressing the consumer 
+                            demand for rhino horn and changing consumer 
+                            behaviour across South East Asia.
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
+      </section>
+      <section>
+          <!-- Second Parallax Section -->
+        <div class="jumbotron paral paralsec1 text-center">
+            <h1 class="display-3 ">Make a donation to <br> Save the Rhino</h1>
+            <p class="lead">Rhino Watch will allow the redusing <br> number of rhino to get attention and also reaching <br> out to help the Rhino.</p>
+            <p class="lead">
+            <a class="btn btn-warning btn-lg btn-md" href="widgets.html" role="button">Donate</a>
+            </p>
         </div>
       </section>
       <section class="container" style="margin-top:70px;">
@@ -117,15 +126,15 @@
                   <div class="text-center">
                       <h3>Why Rhino Watch ?</h3>
                       <p>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                          Vitae, fugit. Assumenda doloribus, accusantium ad et deserunt, 
-                          itaque cumque incidunt 
-                          eligendi quos enim maxime vel consectetur nam laudantium 
-                          aliquid veritatis tempore?
-                          eligendi quos enim maxime vel consectetur nam laudantium 
-                          aliquid veritatis tempore?
-                          eligendi quos enim maxime vel consectetur nam laudantium 
-                          aliquid veritatis tempore?
+                        “The rhino and the elephant were great charismatic animals 
+                        that one could raise money for because they were well known 
+                        and people knew they were endangered…but the problem was, not 
+                        through any malice or ill practice, the money wasn’t being spent 
+                        in all the right areas. 
+                        That is where Johnny and I stepped in to set up a charity.”
+                      </p>
+                      <p class="text-center text-muted">
+                        Dave Stirling, Founder Director and Trustee, Save the Rhino International.
                       </p>
                   </div>
                   <button class="btn btn-block btn-dark">

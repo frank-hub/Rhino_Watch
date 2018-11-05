@@ -6,7 +6,7 @@
         
             <!-- CSRF Token -->
             <meta name="csrf-token" content="{{ csrf_token() }}">
-        
+            <link rel="shortcut icon" type="image/png" href="{{asset('images/rhino-watch.png')}}"/>
             <title>{{ config('app.name', 'Laravel') }}</title>
         
             <!-- Scripts -->
@@ -47,7 +47,60 @@ body{
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+}
 
+/* Paragrapgh for Parallax Section */ 
+.paral p {
+font-size: 24px;
+color:#f5f5f5;
+text-align: center;
+line-height: 60px;
+}
+
+/* Heading for Parallax Section */ 
+.paral h1 {
+color: rgba(255, 255, 255, 0.8);
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+padding-top: 60px;
+line-height: 100px;
+}
+
+/* Image for Parallax Section */ 
+.paralsec1 {
+background-image: url("{{asset('images/parallax.jpeg')}}");
+background-repeat: no-repeat;
+/* opacity: 0.5; */
+filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out; 
+}
+
+
+/* Add more images for more sections */
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+/* Footer */
+.wn-footer {
+padding: 2.5rem 0;
+text-align: center;
+color: white;
+background-color: #607D8B;
+border-top: .05rem solid #e5e5e5;
+}
+
+.wn-footer a {
+color: yellow;
+}
        </style>
     </head>
     <body>
