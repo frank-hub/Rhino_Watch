@@ -137,9 +137,9 @@
                         Dave Stirling, Founder Director and Trustee, Save the Rhino International.
                       </p>
                   </div>
-                  <button class="btn btn-block btn-dark">
+                  <a href="{{url('/about')}}" class="btn btn-block btn-dark">
                       Read More ...
-                  </button>
+                  </a>
               </div>
               <div class="col-md-6">
                   <img src="{{asset('images/rhino-baby.jpg')}}" alt="" class="img-fluid float-right" style="height: 450px">

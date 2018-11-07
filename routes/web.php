@@ -23,6 +23,11 @@ Route::get('/donate', function () {
 Route::get('/reach_us', function () {
     return view('reach_us');
 });
+
+Route::get('/events', function () {
+    return view('events');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

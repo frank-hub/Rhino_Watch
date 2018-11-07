@@ -7,7 +7,7 @@
             <!-- CSRF Token -->
             <meta name="csrf-token" content="{{ csrf_token() }}">
             <link rel="shortcut icon" type="image/png" href="{{asset('images/rhino-watch.png')}}"/>
-            <title>{{ config('app.name', 'Laravel') }}</title>
+            <title>Rhino Watch Global</title>
         
             <!-- Scripts -->
             <script src="{{ asset('js/app.js') }}" defer></script>
@@ -18,6 +18,9 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
             <!-- Styles -->
             <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+            <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+
        <style>
 body{
     overflow-x: hidden;
@@ -129,7 +132,7 @@ color: yellow;
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{url('donate')}}">Donate</a>
-                        <a class="dropdown-item" href="#">Events</a>
+                        <a class="dropdown-item" href="{{url('events')}}">Events</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                         </div>
