@@ -141,11 +141,36 @@ color: yellow;
                         <a class="nav-link" href="{{url('reach_us')}}">Reach Us</a>
                     </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto h3">
-                        <li class="nav-item" style="margin-right: 10px"><i class="fab fa-facebook"></i></li>
-                        <li class="nav-item" style="margin-right: 10px"><i class="fab fa-twitter-square"></i></li>
-                        <li class="nav-item" style="margin-right: 10px"><i class="fab fa-google-plus"></i></li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style="margin-right: 10px;font-size:20px"><i class="fab fa-facebook"></i></li>
+                        <li class="nav-item" style="margin-right: 10px;font-size:20px"><i class="fab fa-twitter-square"></i></li>
+                        <li class="nav-item" style="margin-right: 10px;font-size:20px;"><i class="fab fa-google-plus"></i></li>
+                        <li class="nav-item" style="margin-right: 10px;">
+                            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> User Management <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                @if (Auth::check())
+                                <li><a href="{{route('user.profile')}}">Profile</a></li>
+                                <li><a href="{{route('user.logout')}}">Logout</a></li>
+
+                                @else
+                                <li><a href="{{route('user.signup')}}">Sign Up</a></li>
+                                <li><a href="{{route('user.signin')}}">Sign In</a></li>
+                                @endif
+                                <li role="separator" class="divider"></li>
+                            </ul>
+                        </li>
                     </ul>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    {{-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                           
+                        </ul>
+                    </div><!-- /.navbar-collapse --> --}}
+
                 </div>
                 </nav>
 

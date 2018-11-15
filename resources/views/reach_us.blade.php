@@ -37,8 +37,7 @@
                             <p class="text-center">
                                 <div> <i class="fas fa-globe-africa" style="font-size: 45px"></i></div>
                                 <div>
-                                 This Where We are Located,<br>
-                                 P.O.Box 2222-222222
+                                    Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR
                                 </div>
                             </p>
                         </div>
@@ -46,8 +45,8 @@
                             <p class="text-center">
                                 <div> <i class="fas fa-envelope" style="font-size: 45px"></i></div>
                                 <div>
-                                 This Where We are Located,<br>
-                                 P.O.Box 2222-222222
+                                 Send as a mail<br>
+                                 info@savetherhino.org
                                 </div>
                              </p>
                         </div>
@@ -55,17 +54,16 @@
                             <p class="text-center">
                                 <div> <i class="fas fa-phone" style="font-size: 45px"></i></div>
                                 <div>
-                                 This Where We are Located,<br>
-                                 P.O.Box 2222-222222
+                                 Make a call to :<br>
+                                 +44 (0)20 7357 7474
                                 </div>
                              </p>
                         </div>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Unde dignissimos provident distinctio, tenetur magnam tempore 
-                        eius illum quasi nemo nostrum atque commodi sunt? Libero illum
-                         amet dolor voluptates ducimus et?
+                        We always love to hear from our rhino supporters.
+                        We are here to help and we’ll do our best to 
+                        accommodate your enquiry.
                     </p>
             </div>
         </div>
