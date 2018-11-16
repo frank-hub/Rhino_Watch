@@ -146,7 +146,9 @@ color: yellow;
                         <li class="nav-item" style="margin-right: 10px;font-size:20px"><i class="fab fa-twitter-square"></i></li>
                         <li class="nav-item" style="margin-right: 10px;font-size:20px;"><i class="fab fa-google-plus"></i></li>
                         <li class="nav-item" style="margin-right: 10px;">
-                            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            <a href="{{route('donate.shoppingCart')}}"><i class="fa fa-shopping-cart" aria-hidden="true">
+                                <span class="badge">{{ Session::has('cart') ? Session::get('cart')->totalQty:''}}</span>
+                            </i></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> User Management <span class="caret"></span></a>

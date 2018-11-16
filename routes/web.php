@@ -25,6 +25,19 @@ Route::get('/about', function () {
     'uses' => 'DonateController@getIndex',
     'as' => 'donate.index'
  ]);
+Route::get('/add-to-cart/{id}',[
+    'uses' => 'DonateController@getAddToCart',
+    'as' => 'donate.addToCart'
+]);
+
+Route::get('/shopping-cart',[
+    'uses' => 'DonateController@getCart',
+    'as' => 'donate.shoppingCart'
+]);
+Route::get('/checkout',[
+    'uses' => 'DonateController@getCheckout',
+    'as' => 'checkout'
+]);
 Route::get('/reach_us', function () {
     return view('reach_us');
 });
