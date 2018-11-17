@@ -3,15 +3,15 @@
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
             <!-- CSRF Token -->
             <meta name="csrf-token" content="{{ csrf_token() }}">
             <link rel="shortcut icon" type="image/png" href="{{asset('images/rhino-watch.png')}}"/>
             <title>Rhino Watch Global</title>
-        
+
             <!-- Scripts -->
             <script src="{{ asset('js/app.js') }}" defer></script>
-        
+
             <!-- Fonts -->
             <link rel="dns-prefetch" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -33,12 +33,12 @@ body{
     margin: 0 auto;
     overflow: hidden;
 } */
-{{-- 
+{{--
 .image-card {
   position: absolute;
   top: 0;
   left: 0;
-  
+
 } --}}
 
 .image-card img {
@@ -50,7 +50,7 @@ body{
   -webkit-transform: scale(1.08);
   transform: scale(1.08);
 }
-/* Header Parallax Element Style*/ 
+/* Header Parallax Element Style*/
 .paral {
 min-height: 600px;
 background-attachment: fixed;
@@ -58,7 +58,7 @@ background-size: cover;
 background-position: 50% 50%;
 }
 
-/* Paragrapgh for Parallax Section */ 
+/* Paragrapgh for Parallax Section */
 .paral p {
 font-size: 24px;
 color:#f5f5f5;
@@ -66,7 +66,7 @@ text-align: center;
 line-height: 60px;
 }
 
-/* Heading for Parallax Section */ 
+/* Heading for Parallax Section */
 .paral h1 {
 color: rgba(255, 255, 255, 0.8);
 font-size: 60px;
@@ -76,14 +76,14 @@ padding-top: 60px;
 line-height: 100px;
 }
 
-/* Image for Parallax Section */ 
+/* Image for Parallax Section */
 .paralsec1 {
 background-image: url("{{asset('images/parallax.jpeg')}}");
 background-repeat: no-repeat;
 /* opacity: 0.5; */
 filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-      -webkit-transition: all .8s ease-in-out; 
+      -webkit-transition: all .8s ease-in-out;
 }
 
 
@@ -114,7 +114,7 @@ color: yellow;
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto">
                     <li class="nav-item active">
@@ -169,7 +169,7 @@ color: yellow;
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     {{-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                           
+
                         </ul>
                     </div><!-- /.navbar-collapse --> --}}
 
@@ -180,72 +180,55 @@ color: yellow;
                     @yield('welcome')
             </div>
 
-       {{-- <footer>
-           <div class="row">
-               <div class="col-md-8">
-                   <form action="" method="post">
-                       <div class="form-group">
-                           <input type="text" class="form-control">
-                       </div>
-                       <div class="form-group">
-                           <input type="email" class="form-control">
-                       </div>
-                       <div class="form-group">
-                           <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
-                        </div>
-                        <button class="btn btn-block btn-dark">Get Newsletter</button>
-                   </form>
-               </div>
-           </div>
-       </footer> --}}
+       <footer>
+         <div class="bg-dark text-white">
+             <div class="row">
 
-       <div class="bg-dark text-white">
-           <div class="row">
-              
-                    <div class="col-sm-12 col-md-7 d-flex p-0 pt-sm-1 pb-sm-2">
-							<div class="col col-sm-2 pr-4 pl-0 d-none d-lg-block">
-								<img class="container-fluid" src="{{asset('images/rhino-watch.png')}}" alt="Save The Rhino">
-							</div>
-							<div class="col-12 col-lg-10 px-0">
-                            <div id="text-4" class="">			<div class="textwidget"><p>Save the Rhino, Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR<br>
-                                <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7567 7474</a> |&nbsp;&nbsp;</span>
-                                <a href="mailto:info@savetherhino.org">
-                                    <span class="s1">info@rhinowatch.org</span></a></p>
-                                <p class="p1"><span class="s1">For press enquiries &amp; images, please contact our Communications Manager on<br>
-                                </span>
-                                <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7357 7474</a> or email&nbsp;</span>
-                                <a href="mailto:press@savetherhino.org">
-                                    <span class="s1">press@rhinowatch.org</span></a></p>
-                                </div>
-                            </div>
-                            <!-- .footer-widget -->															</div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="row">
-                                <div class="col-md-6">
-                                        <h3>QuickLinks</h3>
-                                        <ul style="list-style-type: none">
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                        </ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <br>
-                                    <br>
-                                        <ul style="list-style-type: none">
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                            <li><a href="http://">Link 1</a></li>
-                                        </ul>
-                                </div>
-                            </div>
-                        </div>
-           </div>
-       </div>
-       
+                      <div class="col-sm-12 col-md-7 d-flex p-0 pt-sm-1 pb-sm-2">
+                <div class="col col-sm-2 pr-4 pl-0 d-none d-lg-block">
+                  <img class="container-fluid" src="{{asset('images/rhino-watch.png')}}" alt="Save The Rhino">
+                </div>
+                <div class="col-12 col-lg-10 px-0">
+                              <div id="text-4" class="">			<div class="textwidget"><p>Save the Rhino, Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR<br>
+                                  <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7567 7474</a> |&nbsp;&nbsp;</span>
+                                  <a href="mailto:info@savetherhino.org">
+                                      <span class="s1">info@rhinowatch.org</span></a></p>
+                                  <p class="p1"><span class="s1">For press enquiries &amp; images, please contact our Communications Manager on<br>
+                                  </span>
+                                  <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7357 7474</a> or email&nbsp;</span>
+                                  <a href="mailto:press@savetherhino.org">
+                                      <span class="s1">press@rhinowatch.org</span></a></p>
+                                  </div>
+                              </div>
+                              <!-- .footer-widget -->															</div>
+                          </div>
+                          <div class="col-md-5">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                          <h3>QuickLinks</h3>
+                                          <ul style="list-style-type: none">
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                          </ul>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <br>
+                                      <br>
+                                          <ul style="list-style-type: none">
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="http://">Link 1</a></li>
+                                          </ul>
+                                  </div>
+                              </div>
+                          </div>
+             </div>
+         </div>
+       </footer>
+
 
     </body>
 </html>

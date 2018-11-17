@@ -1,8 +1,8 @@
 @extends('layouts.home_page')
 
 @section('welcome')
-<div class="row">
-        <div class="col-md-4 col-md-offset-4">
+<div class="row justify-content-center">
+        <div class="col-md-4 col-md-offset-4 pt-4 pb-4">
             <h1>Sign Up</h1>
             @if (count($errors) > 0)
                 <div class="alert alert-danger">
@@ -11,14 +11,14 @@
                     @endforeach
                 </div>
             @endif
-            
+
             <form action="{{ route('user.signup')}}" method="post">
                 @csrf
                 <div class="form-group">
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" class="form-control">
                 </div>
-    
+
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password" class="form-control">
