@@ -23,6 +23,7 @@
 
        <style>
 body{
+
     overflow-x: hidden;
 }
 /* .zoom-effect-container {
@@ -141,7 +142,7 @@ color: yellow;
                         <a class="nav-link" href="{{url('reach_us')}}">Reach Us</a>
                     </li>
                     </ul>
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" style="align-items: center">
                         <li class="nav-item" style="margin-right: 10px;font-size:20px"><i class="fab fa-facebook"></i></li>
                         <li class="nav-item" style="margin-right: 10px;font-size:20px"><i class="fab fa-twitter-square"></i></li>
                         <li class="nav-item" style="margin-right: 10px;font-size:20px;"><i class="fab fa-google-plus"></i></li>
@@ -182,23 +183,28 @@ color: yellow;
 
        <footer>
          <div class="bg-dark text-white">
-             <div class="row">
+             <div class="row" style="padding-top: 45px;
+             padding-bottom: 20px;
+             margin-top: 50px;">
 
                       <div class="col-sm-12 col-md-7 d-flex p-0 pt-sm-1 pb-sm-2">
-                <div class="col col-sm-2 pr-4 pl-0 d-none d-lg-block">
+                <div class="col col-sm-2 pr-4 pl-0 d-none d-lg-block bg-light" style="height: 45px;">
                   <img class="container-fluid" src="{{asset('images/rhino-watch.png')}}" alt="Save The Rhino">
                 </div>
                 <div class="col-12 col-lg-10 px-0">
-                              <div id="text-4" class="">			<div class="textwidget"><p>Save the Rhino, Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR<br>
-                                  <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7567 7474</a> |&nbsp;&nbsp;</span>
+                              <div id="text-4" class="">	
+                                <div class="textwidget"><p>(Main)Rhino Watch Global-10685B hazelhurst drive
+                                        Suite 13204
+                                        Houston Tx 77043<br>
+                                  <span class="s1"><a href="tel:+1832 324 3453">+1832 324 3453</a> |&nbsp;&nbsp;</span>
                                   <a href="mailto:info@savetherhino.org">
-                                      <span class="s1">info@rhinowatch.org</span></a></p>
-                                  <p class="p1"><span class="s1">For press enquiries &amp; images, please contact our Communications Manager on<br>
+                                      <span class="s1">rhinowatchglobal.@gmx.com</span></a></p>
+                                  <p class="p1"><span class="s1">(Secondary)Save the Rhino, Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR<br>
                                   </span>
                                   <span class="s1"><a href="tel:+4402073577474">+44 (0)20 7357 7474</a> or email&nbsp;</span>
                                   <a href="mailto:press@savetherhino.org">
-                                      <span class="s1">press@rhinowatch.org</span></a></p>
-                                  </div>
+                                      <span class="s1">info@savetherhino.org</span></a></p>
+                                 </div>
                               </div>
                               <!-- .footer-widget -->															</div>
                           </div>
@@ -207,10 +213,10 @@ color: yellow;
                                   <div class="col-md-6">
                                           <h3>QuickLinks</h3>
                                           <ul style="list-style-type: none">
-                                              <li><a href="http://">Link 1</a></li>
-                                              <li><a href="http://">Link 1</a></li>
-                                              <li><a href="http://">Link 1</a></li>
-                                              <li><a href="http://">Link 1</a></li>
+                                              <li><a href="{{url('donate')}}">Give Something</a></li>
+                                              <li><a href="{{url('reach_us')}}">Contact Us</a></li>
+                                              <li><a href="{{route('user.signup')}}">Sign Up</a></li>
+                                              <li><a href="{{route('user.signin')}}">Sign In</a></li>
                                           </ul>
                                   </div>
                                   <div class="col-md-6">

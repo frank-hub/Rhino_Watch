@@ -8,36 +8,39 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="{{asset('images/slide1.jpg')}}"  class="img-fluid" style="height:600px" alt="First slide">
-            <div class="carousel-caption d-none d-md-block" 
-            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;">
-                <h5 class="text-white">The Title on slide 1</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Blanditiis voluptatem necessitatibus dolore sunt! Incidunt 
-                    iure, ut aperiam, deleniti blanditiis 
+            <img class="d-block w-100" src="{{asset('images/slide1.jpg')}}"  class="img-fluid" style="height:600px;" alt="First slide">
+            <div class="carousel-caption d-none d-md-block mx-auto" 
+            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;width:600px;">
+                <h3 class="text-white"><strong>Become a member and be part of the <br> movement to save the rhino.</strong></h3>
+                <p>
+                    <a style="color: #000;background-color: #6eff00;" href="{{route('user.signup')}}" class="btn btn-primary">
+                        Get Started
+                    </a>
                 </p>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="{{asset('images/slide_2.jpeg')}}" class="img-fluid" style="height:600px" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block" 
-            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;">
-                <h5 class="text-white">The Title on slide 2</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Blanditiis voluptatem necessitatibus dolore sunt! Incidunt 
-                    iure, ut aperiam, deleniti blanditiis 
-                </p>
+            <div class="carousel-caption d-none d-md-block mx-auto" 
+            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;width:600px;">
+                <h3 class="text-white">
+                    <strong>
+                            Success stories show the real impact of 
+                            effective conservation programmes at a time when rhinos are under constant threat. 
+                            We’re excited to see what more can come from the Trust’s continued efforts.
+                    </strong></h3>
             </div>
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="{{asset('images/slide_3.jpeg')}}" class="img-fluid" style="height:600px" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block" 
-            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;">
-                <h5 class="text-white">The Title on slide 3</h5>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Blanditiis voluptatem necessitatibus dolore sunt! Incidunt 
-                    iure, ut aperiam, deleniti blanditiis 
-                </p>
+            <div class="carousel-caption d-none d-md-block mx-auto" 
+            style="background-color: #000;opacity: 0.5;margin-bottom: 50px;font-weight: bold;font-size:25px;width:600px;">
+                <h3 class="text-white">
+                    <strong>
+                            With your help, we are already making a difference.
+                            Without our members, we could not fund the crucial fieldwork that is needed to protect 
+                            threatened rhino species across Africa and Asia.
+                    </strong></h3>
             </div>
           </div>
         </div>
@@ -63,7 +66,7 @@
                 <div class="card">
                     <div class="zoom-effect-container">
                         <div class="image-card">
-                            <img src="{{asset('images/rhino.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{asset('images/rangers.jpg')}}" class="img-fluid" alt="">
                         </div>    
                     </div>
                     <div class="card-body bg-dark text-white">
@@ -95,7 +98,7 @@
                 <div class="card">
                         <div class="zoom-effect-container">
                             <div class="image-card">
-                                <img src="{{asset('images/rhino.jpg')}}" class="img-fluid" alt="">
+                                <img src="{{asset('images/poaching.jpg')}}" class="img-fluid" alt="">
                             </div>    
                         </div>               
                         <div class="card-body bg-dark text-white">

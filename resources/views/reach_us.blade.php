@@ -37,7 +37,9 @@
                             <p class="text-center">
                                 <div> <i class="fas fa-globe-africa" style="font-size: 45px"></i></div>
                                 <div>
-                                    Unit 3, Coach House Mews, 217 Long Lane, London, SE1 4PR
+                                    10685B hazelhurst drive
+                                    Suite 13204
+                                    Houston Tx 77043
                                 </div>
                             </p>
                         </div>
@@ -46,7 +48,7 @@
                                 <div> <i class="fas fa-envelope" style="font-size: 45px"></i></div>
                                 <div>
                                  Send as a mail<br>
-                                 info@savetherhino.org
+                                 rhinowatchglobal.@gmx.com
                                 </div>
                              </p>
                         </div>
@@ -55,7 +57,7 @@
                                 <div> <i class="fas fa-phone" style="font-size: 45px"></i></div>
                                 <div>
                                  Make a call to :<br>
-                                 +44 (0)20 7357 7474
+                                 +1832 324 3453
                                 </div>
                              </p>
                         </div>
