@@ -87,3 +87,12 @@ Route::group(['prefix' => 'user'], function () {
 });
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('payment-status',array('as'=>'payment.status','uses'=>'PaymentController@paymentInfo'));
+
+Route::get('payment',array('as'=>'payment','uses'=>'PaymentController@payment'));
+
+Route::get('payment-cancel', function () {
+
+   return 'Payment has been canceled';
+
+});
